@@ -1,7 +1,7 @@
 const express=require('express')
 const cors=require('cors')
 
-const whitelist=['http://localhost:3000']
+const whitelist=['https://quiet-cove-25770.herokuapp.com']
 
 var corsOptionsDelegate=(req,callback)=>{
     var corsOptions;
