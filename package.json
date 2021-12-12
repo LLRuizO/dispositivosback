@@ -2,8 +2,8 @@
   "name": "EhBackend",
   "version": "0.0.1",
   "description": "Backend para el aplicativo web",
-  "main": "index.js",
-  "author": "Wilson Espitia Humanez",
+  "main": "main.js",
+  "author": "Lorena  Ruiz",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
