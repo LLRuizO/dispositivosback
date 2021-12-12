@@ -1,4 +1,4 @@
-//require("dotenv").config();
+require("dotenv").config();
 //Ahora importamos app
 const app = require("../app");
 const mysql = require('mysql');
