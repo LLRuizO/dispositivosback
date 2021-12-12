@@ -1,6 +1,6 @@
 //require("dotenv").config();
 //Ahora importamos app
-const apps = require("./app");
+const apps = require("../app");
 const mysql = require('mysql');
 const hostname= process.env.PORT?'0.0.0.0':'localhost';
 //Importamos el puerto
