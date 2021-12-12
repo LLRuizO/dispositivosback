@@ -10,7 +10,7 @@ function getDispositivos(req, result,next){
         if (err){
             throw err;
         }else{
-            let query = "SELECT * FROM tablaIDENTIFICADOR join tablaDispositivo on tablaIDENTIFICADOR.IdDispositivo = tablaDispositivo.IdDispositivo join  tablaevento on tablaIDENTIFICADOR.IdEvento = tablaevento.IdEvento join  tablamensaje on tablaIDENTIFICADOR.IdMensaje = tablamensaje.IdMensaje";
+            let query = "SELECT * FROM tablaidentificador join tabladispositivo on tablaidentificador.IdDispositivo = tabladispositivo.IdDispositivo join  tablaevento on tablaidentificador.IdEvento = tablaevento.IdEvento join  tablamensaje on tablaidentificador.IdMensaje = tablamensaje.IdMensaje";
   
             connection.query(query, (err, res) => {
               if (err) {
