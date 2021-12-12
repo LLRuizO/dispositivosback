@@ -1,6 +1,6 @@
 //require("dotenv").config();
 //Ahora importamos app
-const apps = require("../app");
+const app = require("../app");
 const mysql = require('mysql');
 const hostname= process.env.PORT?'0.0.0.0':'localhost';
 //Importamos el puerto
@@ -13,10 +13,10 @@ var connection = mysql.createConnection(config);
 connection.connect((err) => {
     if (err){
         throw err;
-    }else{*/
-        console.log("La conexión a la base de datos es correcta");
+    }else{
+        console.log("La conexión a la base de datos es correcta");*/
 
-        apps.listen(port, () =>{
+        app.listen(port, () =>{
             console.log("######################");
             console.log("###### API REST ######");
             console.log("######################");
