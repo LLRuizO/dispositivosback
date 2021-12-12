@@ -1,9 +1,9 @@
 const API_VERSION = "V1";
 const config = {
-    host     : 'localhost',
-    user     : 'root',
-    password : 'password',
-    database : 'bddispositivos'
+    host     : 'boyq80fvltyvxoulzczs-mysql.services.clever-cloud.com',
+    user     : 'umggvpflbh4bnlg9',
+    password : '19dJgNOWVLhGkoOoiSMm',
+    database : 'boyq80fvltyvxoulzczs'
 };
 
 module.exports = {
