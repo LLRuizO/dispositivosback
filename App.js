@@ -1,5 +1,5 @@
 const http = require('http');
-const express = require("express");
+const express = require('express')
 const bodyParser = require("body-parser");
 
 //Inicializaicón de express
